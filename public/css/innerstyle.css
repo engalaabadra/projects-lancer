@@ -1,0 +1,577 @@
+*
+{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+img
+{
+	max-width:100%;
+	height:auto;
+}
+ul,li,ol
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6, p
+{
+	margin:0;
+	padding:0;
+}
+a, a:hover, a:focus
+{
+	text-decoration:none;
+	border:0;
+	outline:0;
+}
+.row
+{
+	margin:0 -15px;
+}
+.innerbodybg
+{
+	background:url("{{asset('../images/uploads/bg.jpg')}}") no-repeat center center;
+	background-size:cover;
+	height:auto;
+	width:100%;
+	overflow:hidden;
+}
+.innerheader
+{
+	width:100%;
+	
+	height:74px;
+	/*border-bottom:1px solid #4f6183;*/
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6d6d6+0,bbb9b8+100 */
+	background: #d6d6d6; /* Old browsers */
+	background: -moz-linear-gradient(top, #d6d6d6 0%, #bbb9b8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d6d6d6 0%,#bbb9b8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d6d6d6 0%,#bbb9b8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#bbb9b8',GradientType=0 ); /* IE6-9 */
+}
+.valignsec
+{
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+	overflow:hidden;
+}
+.container-fluid
+{
+	padding:0 15px;
+}
+.logo
+{
+	float:left;
+	width:45px;
+	margin-top:16px;
+}
+.searchfieldsec
+{
+	width:408px;
+	float:left;
+	margin-left:13px;
+	margin-top:22px;
+}
+.searchfield
+{
+	width:100%;
+	height:32px;
+	border:4px solid #bdbcbd;
+	padding:0 12px;
+	outline:0;
+	background:#fefefe;
+	font-size:12px; border-radius: 100px;
+}
+.searchfield:focus
+{
+	border:4px solid #bdbcbd;
+}
+.createicon
+{
+	float:left;
+	line-height:41px;
+	margin-left:47px;
+	margin-top:16px;
+	color:#000;
+	font-size:15px;
+}
+.createicon img
+{
+	float:left;
+	max-height:41px;
+	margin-right:10px;
+}
+.rytheadsec
+{
+	float:right;
+	margin-top:16px;
+}
+.rytheadsec ul li
+{
+	float:left;
+	font-size:15px;
+	line-height:41px;
+	color:#000;
+	margin-left:40px;
+}
+.rytheadsec ul li img
+{
+	float:left;
+	margin-right:10px;
+}
+.rytheadsec ul li:first-child
+{
+	margin:0;
+}
+.bodysec
+{
+	width:100%;
+	overflow:hidden;
+	height: calc(100% - 74px - 52px);
+	
+	padding:16px 0 25px 0;
+}
+.bodysec .container-fluid, .bodysec .container-fluid .row
+{
+	height:100%;
+}
+.leftpanel
+{
+	width:27%;
+	float:left;
+	padding:0 15px;
+	text-align:center;
+	height:100%;
+}
+.leftpanel h1
+{
+	color:#fff;
+	font-size:35px;
+	line-height:45px;
+	padding-bottom:16px;
+}
+a.newtopicbut
+{
+	display:inline-block;
+	line-height:43px;
+	border:2px solid #eff3fa;
+	color:#ebeff6;
+	text-transform:capitalize;
+	font-size:18px;
+	padding:0 12px 0 42px;
+	border-radius:100px;
+	margin-top:18px;
+	background:url(../images/plus.png) no-repeat 12px center rgba(246,244,242,0.28); transition: all .5s ease-in-out;
+}
+a.newtopicbut:hover{background:url(../images/plus.png) no-repeat 12px center rgba(0,0,0,0.28);  border-color: #000;}
+.rightpanel
+{
+	width:73%;
+	float:right;
+	padding:0 15px;
+	height:100%;
+}
+.sglelisttitlesec
+{
+	width:100%;
+	overflow:hidden;
+	padding:0 15px;
+}
+.imagesec
+{
+	width:15%;
+}
+.topictxt
+{
+	width:25%;
+}
+.iconsec
+{
+	width:30%;
+}
+.replytxt, .projecttxt, .activitytxt
+{
+	width:10%;
+}
+.imagesec, .topictxt, .iconsec, .replytxt, .projecttxt, .activitytxt
+{
+	color:#fff;
+	text-align:center;
+	padding:0 15px;
+	float:left;
+	text-transform:capitalize;
+	line-height:normal;
+	font-size:14px;
+	display:table;
+}
+.sglelistsec
+{
+	padding:10px 15px;
+	width:100%;
+	overflow:hidden;
+	border:2px solid #eff3fa;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	margin-top:15px;
+	background:rgba(246,244,242,0.28);
+}
+.verticalalign
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+.imgthumbnail
+{
+	width:70px;
+	margin:0 auto;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+.topictxt p
+{
+	color:#fff;
+	font-size:14px;
+	line-height:normal;
+}
+.footer
+{
+	width:100%;
+	overflow:hidden;
+	height:52px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2d3d3+0,d2d1d0+100 */
+	background: #d2d3d3; /* Old browsers */
+	background: -moz-linear-gradient(top, #d2d3d3 0%, #d2d1d0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #d2d3d3 0%,#d2d1d0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #d2d3d3 0%,#d2d1d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d3d3', endColorstr='#d2d1d0',GradientType=0 ); /* IE6-9 */
+	/*position:fixed;
+	left:0;
+	bottom:0;
+	z-index:1;*/
+}
+.footer p
+{
+	margin:0;
+	line-height:52px;
+	color:#010000;
+	text-transform:uppercase;
+}
+.box {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+a.burgermenu
+{
+	float:right;
+	font-size:24px;
+	color:#000;
+	cursor:pointer;
+	display:none;
+	margin-top: 16px;
+}
+.sidenav
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  right: 0;
+  background:url("{{asset('../images/uploads/bg.jpg')}}") no-repeat center center;
+  background-size:cover;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align:center;
+}
+.sidenav .closebtn
+{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+  margin: 0;
+  color:#fff;
+}
+.sidenav ul
+{
+  position:relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.sidenav ul li
+{
+	display:block;
+	font-size:24px;
+	text-transform:uppercase;
+	line-height:44px;
+	font-weight: 400;
+}
+.sidenav ul li a
+{
+	display:block;
+	color:#fff;
+}
+.sidenav ul li ul
+{
+	display:block;
+	background:rgba(255,255,255,0.2);
+	padding:3px 0;
+	margin:5px 0;
+	top:auto;
+	transform:none;
+}
+.sidenav ul li ul li
+{
+	font-weight: 400;
+	text-transform:capitalize;
+}
+.mobileview
+{
+	display:none;
+}
+.innerbodysec
+{
+	width:100%;
+	overflow:hidden;
+	height: calc(100% - 74px - 52px);
+}
+.innerleftpart
+{
+	width:25%;
+	float:left;
+	height:100%;
+}
+.namespheretxt
+{
+	line-height:normal;
+	color:#fff;
+	font-size:22px;
+	font-weight:bold;
+	width:100%;
+}
+.namespheretxt img
+{
+	max-height:115px;
+	float:left;
+	margin:0 10px 0 0;
+}
+.namespheretxt span
+{
+	padding-top:22px;
+	display:table;
+}
+.innerleftpart h1
+{
+	color:#fff;
+	font-size:28px;
+	width:100%;
+	overflow:hidden;
+	line-height:normal;
+	padding-top:25px;
+	font-weight:normal;
+}
+.innerleftpart h2
+{
+	color:#fff;
+	font-size:17px;
+	width:100%;
+	overflow:hidden;
+	line-height:normal;
+	font-weight:normal;
+	padding-bottom:5px;
+}
+.innerleftpart p
+{
+	color:#fff;
+	line-height:normal;
+	font-size:15px;
+	margin-bottom:20px;
+}
+.usernametxt
+{
+	line-height:normal;
+	color:#fff;
+	font-size:18px;
+	font-weight:normal;
+	width:100%;
+}
+.usernametxt img
+{
+	max-height:75px;
+	float:left;
+	margin:0 10px 0 0;
+}
+.usernametxt span
+{
+	padding-top:8px;
+	display:table;
+}
+.tabletxt
+{
+	padding-top:20px;
+}
+.tabletxt tr td
+{
+	text-align:center;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	line-height:normal;
+}
+.innermiddlepart
+{
+	width:55%;
+	float:left;
+	height:100%;
+	background:#fff;
+}
+.innerrightpart
+{
+	width:20%;
+	float:left;
+	height:100%;
+	text-align:center;
+}
+.alignpad
+{
+	padding:15px;
+	width:100%;
+	overflow:hidden;
+	height:100%;
+}
+a.projectbut
+{
+	display:inline-block;
+	line-height:54px;
+	border:2px solid #eff3fa;
+	color:#eff3fa;
+	text-transform:capitalize;
+	font-size:22px;
+	font-weight:bold;
+	padding:0 70px;
+	border-radius:100px;
+	margin-top:45px;
+	background:url(../images/plus.png) no-repeat 40px center rgba(246,244,242,0.28); transition: all .5s ease-in-out;
+}
+a.projectbut:hover{background:url(../images/plus.png) no-repeat 40px center rgba(0,0,0,0.28);  border-color: #000;}
+.innerrightpart a.newtopicbut
+{
+	margin-top:0;
+}
+a.bellicon
+{
+	display:inline-block;
+	margin-left:18px;
+}
+.sgleindividualdisaec
+{
+	width:100%;
+	overflow:hidden;
+	padding:15px 0;
+	border-top:2px solid #f0f0f0;
+}
+.sgleindividualdisaec:first-child
+{
+	border:0;
+	padding-top:0;
+}
+.sgleindividualdisaec:last-child
+{
+	padding-bottom:0;
+}
+.smallthumb
+{
+	float:left;
+	padding:0 15px;
+	width:12%;
+}
+.discussioncont
+{
+	width:88%;
+	float:right;
+	padding:0 15px;
+}
+.discussioncont h3
+{
+	color:#b7b7b7;
+	line-height:normal;
+	font-size:19px;
+	font-weight:bold;
+	float:left;
+}
+.discussioncont .datesec
+{
+	float:right;
+	color:#b7b7b7;
+	line-height:normal;
+	font-size:15px;
+	font-weight:normal;
+}
+.discussioncont p
+{
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	color:#353535;
+	font-size:14px;
+	font-weight:normal;
+	line-height:normal;
+	padding:20px 0 40px 0;
+}
+a.replytext
+{
+	float:left;
+	line-height:normal;
+	color:#9f9f9f;
+	font-size:15px;
+	font-weight:normal;
+	text-transform:capitalize;
+}
+a.replytext i
+{
+	float:right;
+	margin-left:10px;
+	margin-top:3px;
+}
+.ryticonsec
+{
+	float:right;
+}
+a.likebut
+{
+	float:left;
+	line-height:normal;
+	color:#bdbdbd;
+	font-size:15px;
+}
+a.likebut i
+{
+	margin-left:5px;
+}
+a.flagbut
+{
+	float:left;
+	line-height:normal;
+	color:#bdbdbd;
+	font-size:15px;
+	margin-left:30px;
+}
+a.replybut
+{
+	float:left;
+	line-height:normal;
+	color:#bdbdbd;
+	font-size:15px;
+	margin-left:30px;
+}
+a.replybut i
+{
+	margin-right:5px;
+}

@@ -1,0 +1,67 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "server": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.0.0",
+    "cross-env": "^7.0",
+    "deepmerge": "^4.2.2",
+    "fibers": "^5.0.0",
+    "jquery": "^3.2",
+    "laravel-mix": "^5.0.5",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4",
+    "popper.js": "^1.12",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.20.1",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "laravel-echo": "^1.8.1",
+    "popper.js": "^1.16.1",
+    "pusher-js": "^7.0.0",
+    "simple-peer": "^9.7.2",
+    "socket.io-client": "^2.3.0",
+    "v-calendar": "^1.0.8",
+    "v-toaster": "^1.0.3",
+    "vue-chat-scroll": "^1.4.0",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vuedraggable": "^2.24.0",
+    "vuetify": "^2.3.10"
+    
+  },
+  "name": "Sharing-Your-Ideas-master",
+  "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaabadra/Sharing-Your-Ideas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaabadra/Sharing-Your-Ideas/issues"
+  },
+  "homepage": "https://github.com/alaabadra/Sharing-Your-Ideas#readme"
+}
