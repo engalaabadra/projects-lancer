@@ -1,0 +1,278 @@
+@media screen and (max-width: 1024px) {
+
+.searchfieldsec
+{
+	width:200px;
+}
+.createicon, .rytheadsec ul li
+{
+	margin-left:20px;
+}
+.leftpanel h1
+{
+	font-size:30px;
+	line-height:35px;
+}
+.namespheretxt, .usernametxt
+{
+	font-size:16px;
+}
+.namespheretxt img
+{
+	max-height:75px;
+}
+.namespheretxt span
+{
+	padding-top:10px;
+}
+.innerleftpart h1
+{
+	font-size:22px;
+	padding-top:15px;
+}
+.innerleftpart h2
+{
+	font-size:15px;
+}
+.tabletxt tr td
+{
+	font-size:15px;
+	font-weight:normal;
+}
+.innerrightpart a.newtopicbut
+{
+	font-size:14px;
+	line-height:38px;
+	background-size:12px auto;
+	padding-left:30px;
+}
+a.projectbut
+{
+	font-size:20px;
+	padding:0 25px 0 45px;
+	line-height:40px;
+	background-position: 18px center;
+	background-size:15px auto;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+
+a.burgermenu
+{
+	display:block;
+}
+.searchfieldsec, .createicon, .rytheadsec, .leftpanel
+{
+	display:none;
+}
+.rightpanel
+{
+	width:100%;
+	float:none;
+	overflow:hidden;
+}
+.iconsec
+{
+	width:24%;
+}
+.replytxt, .projecttxt, .activitytxt
+{
+	width:12%;
+}
+.namespheretxt, .usernametxt
+{
+	font-weight:normal;
+	font-size:12px;
+}
+.namespheretxt img, .usernametxt img
+{
+	max-height:55px;
+	margin-right:5px;
+}
+a.bellicon
+{
+	margin:15px 0 0 0;
+}
+a.projectbut
+{
+	width:100%;
+	padding:0;
+	font-weight:normal;
+	font-size:16px;
+	background-size: 13px auto;
+	background-position: 12px center;
+	margin-top:20px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+.bodysec
+{
+	padding:20px 0;
+}
+.desktopview
+{
+	display:none;
+}
+.mobileview
+{
+	display:block;
+}
+.sglelistsec
+{
+	padding-top:0;
+	padding-bottom:0;
+}
+.sglelistsec:first-child
+{
+	margin-top:0;
+}
+.leftpart, .rightpart
+{
+	width:50%;
+	float:left;
+	padding:10px 15px;
+	color:#fff;
+	text-align:center;
+	font-size: 13px;
+	border-top:1px solid #fff;
+}
+.sglelistsec .items-container:first-child .leftpart, .sglelistsec .items-container:first-child .rightpart
+{
+	border-top:0;
+}
+.leftpart
+{
+	text-transform:capitalize;
+	display:table;
+}
+.rightpart p
+{
+	color: #fff;
+	font-size: 13px;
+	line-height: normal;
+}
+.imgthumbnail
+{
+	width:50px;
+}
+.formobheight
+{
+	height:auto;
+}
+.innerleftpart, .innermiddlepart, .innerrightpart
+{
+	float:none;
+	width:100%;
+	overflow:hidden;
+}
+.innerleftpart, .innerrightpart
+{
+	height:auto;
+}
+.innermiddlepart
+{
+	height:400px;
+}
+.namespheretxt, .usernametxt {
+    font-weight: bold;
+    font-size: 22px;
+}
+.namespheretxt img, .usernametxt img {
+   	max-height:115px;
+	margin:0 10px 0 0;
+}
+.innerleftpart h1 {
+    font-size: 25px;
+    padding-top: 25px;
+}
+.innerleftpart h2
+{
+	font-size:17px;
+}
+.tabletxt tr td
+{
+	font-size:18px;
+	font-weight:bold;
+}
+.formobheight .footer
+{
+	position:relative;
+}
+a.bellicon
+{
+	margin:0 0 0 15px;
+}
+a.projectbut
+{
+	width:auto;
+	padding: 0 25px 0 45px;
+}
+.smallthumb
+{
+	width:18%;
+}
+.discussioncont
+{
+	width:82%;
+}
+
+}
+
+@media screen and (max-width: 479px) {
+
+.sidenav ul li
+{
+	font-size:18px;
+	line-height:35px;
+}
+.namespheretxt, .usernametxt
+{
+	font-size:18px;
+}
+.namespheretxt img, .usernametxt img
+{
+	max-height:100px;
+}
+.tabletxt tr td
+{
+	font-size:16px;
+}
+.smallthumb
+{
+	width:25%;
+}
+.discussioncont
+{
+	width:75%;
+}
+.discussioncont h3
+{
+	font-size:18px;
+}
+.discussioncont .datesec
+{
+	font-size:14px;
+}
+.discussioncont p
+{
+	padding:15px 0;
+}
+a.replytext, a.flagbut, a.replybut, a.likebut
+{
+	font-size:13px;
+}
+a.replytext i
+{
+	margin-left:5px;
+}
+a.flagbut, a.replybut
+{
+	margin-left:10px;
+}
+
+}
